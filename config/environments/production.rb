@@ -67,4 +67,8 @@ SampleApp::Application.configure do
 
   # precompile blueprint css
   config.assets.precompile += ["blueprint/*.css"]
+
+  # use ssl (https)
+  config.force_ssl = true
+
 end

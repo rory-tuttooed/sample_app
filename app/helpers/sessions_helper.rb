@@ -5,7 +5,7 @@ module SessionsHelper
   end
 
   def sign_out
-    cookies.delete(:remember_token)
+    cookies.delete( :remember_token )
   end
 
   def signed_in?

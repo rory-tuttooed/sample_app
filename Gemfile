@@ -3,10 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.1'
 gem 'bcrypt-ruby', '3.0.1'
 
-gem 'linecache19', '0.5.12'
-gem 'ruby-debug-base19', '0.11.25'
-#gem 'ruby-debug-base19x', '0.11.29'
-gem 'ruby-debug19', '0.11.6'
 gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 
@@ -18,6 +14,11 @@ group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
   gem 'annotate', '~> 2.4.1.beta' 
+
+  gem 'linecache19', '0.5.12'
+  gem 'ruby-debug-base19', '0.11.25'
+  #gem 'ruby-debug-base19x', '0.11.29'
+  gem 'ruby-debug19', '0.11.6'
 end
 
 

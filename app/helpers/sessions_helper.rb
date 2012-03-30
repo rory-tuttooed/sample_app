@@ -1,8 +1,5 @@
 module SessionsHelper
 
-  require 'ruby-debug'
-  #require 'ruby-debug-base19'
-
   def sign_in(user)
     cookies.permanent[:remember_token] = user.remember_token
     current_user = user
